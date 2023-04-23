@@ -82,17 +82,19 @@ permalink: /
   <a href="{{ site.baseurl }}/_pages/leaderboard" class="button">Check out the leaderboard</a>
 </div>-->
 
+<!--
 ## Citation
 If you have used our benchmark or have found our work useful in your research, please cite our paper:
 
 ```bibtex
 @article{roberts2023satin,
   title        = {SATIN: A Multi-Task Metadataset for Classifying Satellite Imagery using Vision-Language Models},
-  author       = {Jonathan Roberts and Kai Han and Samuel Albanie},
+  author       = {Jonathan Roberts, Kai Han and Samuel Albanie},
   year         = {2023},
   journal      = {arXiv preprint arXiv:INSERT_NUM}
 }
 ```
+-->
 
 
 ## Any questions?
