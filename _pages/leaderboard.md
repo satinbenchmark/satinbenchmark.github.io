@@ -8,6 +8,8 @@ title: SATIN Public Leaderboard
 <section>
     <p>Welcome to the SATIN Project Public Leaderboard! Here, you can view the latest rankings of models and their performance on the SATIN benchmark.</p>
 
+    <p>Leaderboard coming soon!</p>
+    <! --
     <table>
         <tr>
             <th>Rank</th>
@@ -44,6 +46,7 @@ title: SATIN Public Leaderboard
             <td>0.74</td>
         </tr>
     </table>
+    -->
 </section>
 
 <p>We encourage you to submit your own model's results to be featured on the SATIN Public Leaderboard! By sharing your work, you contribute to the growth and advancement of the remote sensing and machine learning community.</p>

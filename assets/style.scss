@@ -1173,6 +1173,7 @@ Modules - reusable parts of our design
   align-items: center;
   justify-content: center;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .site-logo-link {
@@ -1254,7 +1255,9 @@ nav a {
   }
 
   .small-logo {
-    width: 128px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .satin-title {
@@ -1263,6 +1266,10 @@ nav a {
 
   .satin-subtitle {
     font-size: 12px;
+  }
+
+  nav a {
+    font-size: 18px;
   }
 }
 
@@ -1323,6 +1330,7 @@ th {
   max-width: 100%;
   height: auto;
 }
+
 
 
 
