@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    {% seo title=false %}
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon_package_v0.16/favicon.ico">
+    {% include analytics_head.html %}
+  </head>
+
+  <body>
+    <div id="bar"></div>
+
+    <div class="wrapper-container">
+      <div class="colored-header">
+        <div class="wrapper-masthead">
+          <div class="container">
+            <header class="masthead clearfix">
+              <a href="{{ site.baseurl }}/" class="site-logo-link">
+                <img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" />
+              </a>
+              <div class="nav-wrapper">
+                <nav>
+                  <a href="{{ site.paper_link }}/">Paper</a>
+                  <a href="{{ site.baseurl }}/_pages/code">Code</a>
+                  <a href="{{ site.huggingface_link }}/">Data</a>
+                  <a href="{{ site.baseurl }}/_pages/tasks">Tasks</a>
+                  <a href="{{ site.baseurl }}/_pages/leaderboard">Leaderboard</a>
+                </nav>
+              </div>
+            </header>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          {{ content }}
+        </div>
+      </div>
+
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
+      </div>
+
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
