@@ -72,7 +72,7 @@ permalink: /
 
 <div class="button-row" style="display: flex; justify-content: center; margin-top: 20px;">
   <a href="{{ site.paper_link }}" class="button">Read the paper</a>
-  <a href="{{ site.github_link }}" class="button">Look at the code</a>
+  <a href="{{ site.baseurl }}/_pages/code" class="button">Look at the code</a>
   <a href="{{ site.huggingface_link }}" class="button">Download the data</a>
   <a href="{{ site.baseurl }}/_pages/tasks" class="button">Explore the tasks</a>
   <a href="{{ site.baseurl }}/_pages/leaderboard" class="button">Check out the leaderboard</a>
