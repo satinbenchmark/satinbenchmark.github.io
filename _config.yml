@@ -14,7 +14,7 @@ description: SATellite ImageNet
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/images/gold_logo_transparent.png
 
-paper_link: https://arxiv.org/pdf/2304.11619.pdf
+paper_link: https://arxiv.org/abs/2304.11619
 huggingface_link: https://huggingface.co/datasets/jonathan-roberts1/SATIN
 github_link: https://github.com/jonathan-roberts1/SATIN
 
