@@ -82,20 +82,17 @@ permalink: /
   <a href="{{ site.baseurl }}/_pages/leaderboard" class="button">Check out the leaderboard</a>
 </div>-->
 
-<!--
+## Any questions?
+If you have any questions or feedback about our work, please [contact us](mailto:jdr53@cam.ac.uk).
+
 ## Citation
-If you have used our benchmark or have found our work useful in your research, please cite our paper:
+If you have used our benchmark or have found our work useful in your research, please consider citing our paper:
 
 ```bibtex
 @article{roberts2023satin,
   title        = {SATIN: A Multi-Task Metadataset for Classifying Satellite Imagery using Vision-Language Models},
   author       = {Jonathan Roberts, Kai Han and Samuel Albanie},
   year         = {2023},
-  journal      = {arXiv preprint arXiv:INSERT_NUM}
+  journal      = {arXiv preprint arXiv:2304.11619}
 }
 ```
--->
-
-
-## Any questions?
-If you have any questions or feedback about our work, please [contact us](mailto:jdr53@cam.ac.uk).
