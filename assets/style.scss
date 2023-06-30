@@ -450,7 +450,15 @@ nav {
 
 footer {
   padding: 20px 0;
-  text-align: center;
+  text-align: center; /* new below */
+  display: flex;
+  align-items: center;  /* Vertically aligns items if they are in a row */
+  justify-content: center;  /* Horizontally aligns items */
+}
+
+.logo-credit {
+    margin-left: 0;  /* Optional: Creates some space between the SVG icons and the credit text */
+    margin-bottom: 5px;
 }
 
 body:after {
