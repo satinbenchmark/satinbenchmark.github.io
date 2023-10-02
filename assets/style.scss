@@ -1340,6 +1340,43 @@ th {
 }
 
 
+@media (max-width: 600px) {
+
+    /* Adjusting flex container for small logos */
+    .small-logos-container {
+        flex-wrap: wrap;
+    }
+
+    /* Adjusting image sizes */
+    .small-logo {
+        width: 50px;
+        height: auto;
+    }
+
+    .large-logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Adjusting button sizes and fonts */
+    .button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* Adjusting tab sizes and format */
+    .tab {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    /* Adjusting citation and text content */
+    p, li, ol {
+        font-size: 0.8em;
+    }
+}
+
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
