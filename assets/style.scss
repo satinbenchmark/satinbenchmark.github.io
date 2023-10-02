@@ -1385,6 +1385,19 @@ th {
     }
 }
 
+@media (max-width: 600px) {
+    .nav-wrapper .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-wrapper .navbar a {
+        padding: 8px;
+        text-align: center;
+    }
+}
+
 
 /* Stack logos into rows and allow them to wrap */
 
