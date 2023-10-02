@@ -1344,12 +1344,14 @@ th {
 
     /* Adjusting flex container for small logos */
     .small-logos-container {
+        flex-direction: column;
         flex-wrap: wrap;
+        align-items: center; /* center the logos */
     }
 
     /* Adjusting image sizes */
     .small-logo {
-        width: 50px;
+        width: 100px;
         height: auto;
     }
 
@@ -1364,6 +1366,13 @@ th {
         padding: 5px 10px;
     }
 
+    /* Stack buttons into rows */
+    .button-row {
+        flex-direction: column;
+        align-items: center; /* center the buttons */
+        gap: 10px; /* space between stacked buttons */
+    }
+
     /* Adjusting tab sizes and format */
     .tab {
         font-size: 12px;
@@ -1375,6 +1384,11 @@ th {
         font-size: 0.8em;
     }
 }
+
+
+/* Stack logos into rows and allow them to wrap */
+
+
 
 
 
