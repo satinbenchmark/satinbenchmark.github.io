@@ -64,7 +64,7 @@ permalink: /
     <li>A public leaderboard for tracking the performance of VL models on the SATIN benchmark, promoting research and development in the remote sensing domain.</li>
   </ol>
   <p>The format of the SATIN metadataset is designed to be model-agnostic, allowing any VL model capable of processing satellite and aerial imagery to participate. The ultimate goal of SATIN is to drive research and progress in the development of robust and accurate models for interpreting remote sensing imagery, with potential applications in land-use planning, natural resource management, food security, and environmental risk management.</p>
-
+  <p>SATIN was presented at the TNGCV Workshop, ICCV 2023.</p>
 
 
 </div>
