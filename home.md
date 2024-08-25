@@ -89,9 +89,9 @@ If you have used our benchmark or have found our work useful in your research, p
 
 ```bibtex
 @article{roberts2023satin,
-  title        = {SATIN: A Multi-Task Metadataset for Classifying Satellite Imagery using Vision-Language Models},
-  author       = {Jonathan Roberts, Kai Han and Samuel Albanie},
-  year         = {2023},
-  journal      = {arXiv preprint arXiv:2304.11619}
+  title={SATIN: A multi-task metadataset for classifying satellite imagery using vision-language models},
+  author={Roberts, Jonathan and Han, Kai and Albanie, Samuel},
+  journal={arXiv preprint arXiv:2304.11619},
+  year={2023}
 }
 ```
